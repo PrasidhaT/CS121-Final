@@ -1,7 +1,12 @@
-.buttons{
-    text-align: center;
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #93CAE6;
 }
-
 .jumbotron{
     text-align: center;
+    margin-top: 10%;
 }

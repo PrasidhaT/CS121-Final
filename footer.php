@@ -1,8 +1,9 @@
-<!-- @@@@@@@@@@@@@@@@@@@@@@     Footer            @@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-<footer>
-    <p>Web site designed by you.</p>
-    <p>Code for this site can be found at: <a href="https://gitlab.uvm.edu/robert-erickson/Simple-Database-UVM">https://gitlab.uvm.edu/robert-erickson/Simple-Database-UVM</a></p>
-</footer>
-<!-- @@@@@@@@@@@@@@@@@@@@ Ends Footer             @@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<?php
+require('top.php');
+//these two lines of code were also provided to us form lab 5
+mysqli_free_result($result);
+// close connection
+mysqli_close($link);
+?>
 </body>
 </html>
